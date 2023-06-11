@@ -1,0 +1,5291 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local ScreenGui_2 = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextBox = Instance.new("TextBox")
+local TextButton = Instance.new("TextButton")
+local Frame2 = Instance.new("Frame")
+local ScreenGui_3 = Instance.new("ScreenGui")
+local Frame_2 = Instance.new("Frame")
+local TextButton_2 = Instance.new("TextButton")
+local TextButton_3 = Instance.new("TextButton")
+local kapat = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+ScreenGui_2.Parent = ScreenGui
+ScreenGui_2.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui_2
+Frame.BackgroundColor3 = Color3.fromRGB(74, 74, 74)
+Frame.Position = UDim2.new(-0.0590551868, 0, -0.0424592346, 0)
+Frame.Size = UDim2.new(0, 1149, 0, 638)
+
+TextBox.Parent = Frame
+TextBox.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.Position = UDim2.new(0.312445611, 0, 0.293103456, 0)
+TextBox.Size = UDim2.new(0, 417, 0, 116)
+TextBox.Font = Enum.Font.SourceSansBold
+TextBox.Text = "KEY GİRİNİZ"
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextSize = 80.000
+
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.Position = UDim2.new(0.412532628, 0, 0.523510993, 0)
+TextButton.Size = UDim2.new(0, 200, 0, 50)
+TextButton.Font = Enum.Font.SourceSansBold
+TextButton.Text = "GİRİŞ YAP"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextScaled = true
+TextButton.TextSize = 50.000
+TextButton.TextWrapped = true
+
+Frame2.Name = "Frame2"
+Frame2.Parent = ScreenGui_2
+Frame2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame2.Position = UDim2.new(0.996062994, 0, 0.978260875, 0)
+Frame2.Size = UDim2.new(0, 0, 0, 11)
+
+ScreenGui_3.Parent = ScreenGui
+ScreenGui_3.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame_2.Parent = ScreenGui_3
+Frame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_2.BackgroundTransparency = 1.000
+Frame_2.Position = UDim2.new(0, 0, 0.828804374, 0)
+Frame_2.Size = UDim2.new(0, 100, 0, 100)
+
+TextButton_2.Parent = Frame_2
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.BackgroundTransparency = 1.000
+TextButton_2.Position = UDim2.new(8.15999985, 0, 0.5, 0)
+TextButton_2.Size = UDim2.new(0, 200, 0, 50)
+TextButton_2.Font = Enum.Font.Unknown
+TextButton_2.Text = "Made By phiec and lextraa Developed By phiec"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 30.000
+TextButton_2.TextTransparency = -0.020
+TextButton_2.TextWrapped = true
+
+TextButton_3.Parent = Frame_2
+TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.BackgroundTransparency = 1.000
+TextButton_3.Position = UDim2.new(0.439999998, 0, 0.400000095, 0)
+TextButton_3.Size = UDim2.new(0, 200, 0, 50)
+TextButton_3.Font = Enum.Font.Unknown
+TextButton_3.Text = "FUCK OFF THİS İS LEXER BEST ON THE WORLD"
+TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.TextSize = 14.000
+
+kapat.Name = "kapat"
+kapat.Parent = Frame_2
+kapat.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+kapat.BorderColor3 = Color3.fromRGB(255, 1, 5)
+kapat.Position = UDim2.new(7.70999908, 0, 0.559999943, 0)
+kapat.Size = UDim2.new(0, 31, 0, 37)
+kapat.Font = Enum.Font.SourceSans
+kapat.TextColor3 = Color3.fromRGB(0, 0, 0)
+kapat.TextSize = 14.000
+kapat.TextTransparency = 1.000
+
+-- Scripts:
+
+local function HMTFZTM_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.TextBox.Text == "LEXERBESTPHIECLEXTRANOOB" then
+			script.parent.Parent.Parent.Frame.Visible = false
+		end
+	end)
+end
+coroutine.wrap(HMTFZTM_fake_script)()
+local function HAITJM_fake_script() -- ScreenGui_3.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui_3)
+
+	-- Gui to Lua
+	-- Version: 3.2
+	
+	-- Instances:
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Script Made by";
+		Text = "Điα Lextra Ꮠ#0001 And !? Eren#0006";
+		Icon = "https://cdn.discordapp.com/attachments/1038391027683303454/1038391716476096523/d7cdacf19020ddbe34de5ccceb2a82e8.png";
+		Duration = 100000000000000;
+	})
+	local hi = Instance.new("Sound")
+	hi.Name = "Sound"
+	hi.SoundId = "asdasdasd"
+	hi.Volume = 2
+	hi.Looped = true
+	hi.archivable = false
+	hi.Parent = game.Workspace
+	
+	
+	hi:Play()
+	
+	local speaker = game.Players.LocalPlayer
+	
+	local ScreenGui = Instance.new("ScreenGui")
+	local Frame = Instance.new("Frame")
+	local Lexer = Instance.new("TextButton")
+	local text5 = Instance.new("TextButton")
+	local text4 = Instance.new("TextButton")
+	local text3 = Instance.new("TextButton")
+	local text2 = Instance.new("TextButton")
+	local text1 = Instance.new("TextButton")
+	
+	--Properties:
+	
+	ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+	ScreenGui.ResetOnSpawn = false
+	
+	Frame.Parent = ScreenGui
+	Frame.BackgroundColor3 = Color3.fromRGB(89, 53, 87)
+	Frame.Position = UDim2.new(0.704927981, 0, 0.0351524465, 0)
+	Frame.Size = UDim2.new(0, 224, 0, 444)
+	Frame.Active = true
+	Frame.Draggable = true
+	
+	Lexer.Name = "Lexer"
+	Lexer.Parent = Frame
+	Lexer.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
+	Lexer.Size = UDim2.new(0, 222, 0, 50)
+	Lexer.Font = Enum.Font.SourceSans
+	Lexer.Text = "Lexer"
+	Lexer.TextColor3 = Color3.fromRGB(0, 0, 0)
+	Lexer.TextSize = 30.000
+	
+	text5.Name = "text5"
+	text5.Parent = Frame
+	text5.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+	text5.Position = UDim2.new(0.047537148, 0, 0.143076211, 0)
+	text5.Size = UDim2.new(0, 200, 0, 50)
+	text5.Font = Enum.Font.Gotham
+	text5.Text = "GJ [50]"
+	text5.TextColor3 = Color3.fromRGB(0, 0, 0)
+	text5.TextSize = 20.000
+	text5.MouseButton1Down:connect(function()
+		-- R6 Only
+	
+		local A_1 = "Bir."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait (1)
+		local A_1 = "İki."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Üç."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Dört."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Beş."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Altı."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Yedi."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Sekiz."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Dokuz."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "On."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "On bir."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "On iki."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "On üç."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "On dört."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "On beş."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "On altı."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "On yedi."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "On sekiz."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "On dokuz."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Yirmi."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Yirmi bir."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Yirmi iki."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Yirmi üç."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Yirmi dört."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Yirmi beş."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Yirmi altı."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Yirmi yedi."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Yirmi sekiz."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		local A_1 = "Yirmi dokuz."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Otuz."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait (1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait (1)
+		local A_1 = "Otuz bir."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Otuz iki."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Otuz üç."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Otuz dört."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Otuz beş."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Otuz altı."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Otuz yedi."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Otuz sekiz."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Otuz dokuz."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Kırk."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Kırk bir."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Kırk iki."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Kırk üç."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Kırk dört."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Kırk beş."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Kırk altı."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Kırk yedi."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Kırk sekiz."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Kırk dokuz."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Elli."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(10000000000000000)
+		function Iterate(instance, func)
+			for i, v in next, instance:GetChildren() do
+				func(v)
+			end
+		end
+		limbs = {
+			["Right Leg"] = true;
+			["Right Arm"] = true;
+			["Left Leg"] = true;
+			["Left Arm"] = true;
+		}
+		Iterate(LocalPlayer.Character, function(v)
+			if v:IsA("BasePart") then
+				local attachment = Instance.new("Attachment")
+				attachment.Parent = v
+				attachment.Name = (v.Name .. "[Attachment]")
+				if limbs[v.Name] then
+					attachment.Position = Vector3.new(0, v.Size.Y/2, 0)
+				elseif v.Name == "Head" then
+					attachment.Position = Vector3.new(0, -v.Size.Y/2, 0)
+					attachment.Rotation = Vector3.new(0, 0, -90)
+				end
+			end
+		end)
+		local leftLegAttachment = Instance.new("Attachment")
+		leftLegAttachment.Position = Vector3.new(-.5, -1, 0)
+		leftLegAttachment.Rotation = Vector3.new(0, -90, 0)
+		local rightLegAttachment = Instance.new("Attachment")
+		rightLegAttachment.Position = Vector3.new(.5, -1, 0)
+		rightLegAttachment.Rotation = Vector3.new(0, -90, 0)
+		rightLegAttachment.Parent, leftLegAttachment.Parent = LocalPlayer.Character.Torso, LocalPlayer.Character.Torso
+		jointAttachments = {
+			['Head'] = {
+				['Attachment0'] = LocalPlayer.Character.Torso['NeckAttachment'];
+				['Attachment1'] = LocalPlayer.Character.Head['Head[Attachment]'];
+			};
+			['Left Arm'] = {
+				['Attachment0'] = LocalPlayer.Character.Torso['LeftCollarAttachment'];
+				['Attachment1'] = LocalPlayer.Character['Left Arm']['Left Arm[Attachment]'];
+			};
+			['Right Arm'] = {
+				['Attachment0'] = LocalPlayer.Character.Torso['RightCollarAttachment'];
+				['Attachment1'] = LocalPlayer.Character['Right Arm']['Right Arm[Attachment]'];
+			};
+			['Left Leg'] = {
+				['Attachment0'] = leftLegAttachment;
+				['Attachment1'] = LocalPlayer.Character['Left Leg']['Left Leg[Attachment]'];
+			};
+			['Right Leg'] = {
+				['Attachment0'] = rightLegAttachment;
+				['Attachment1'] = LocalPlayer.Character['Right Leg']['Right Leg[Attachment]'];
+			};
+		}
+		LocalPlayer.Character.Humanoid.PlatformStand = true
+		Iterate(LocalPlayer.Character, function(v)
+			if v:IsA("BasePart") then
+				if jointAttachments[v.Name] then
+					local ballSocketJoint = Instance.new("BallSocketConstraint")
+					ballSocketJoint.Parent = v
+					ballSocketJoint.Radius = 0.15
+					ballSocketJoint.Attachment0, ballSocketJoint.Attachment1 = jointAttachments[v.Name]['Attachment0'], jointAttachments[v.Name]['Attachment1']
+				end
+			end
+		end)
+		Iterate(LocalPlayer.Character.Torso, function(v)
+			if v:IsA("Motor") then
+				v:Remove()
+			end
+		end)
+	end)
+	
+	text4.Name = "text4"
+	text4.Parent = Frame
+	text4.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+	text4.Position = UDim2.new(0.0520014353, 0, 0.296435773, 0)
+	text4.Size = UDim2.new(0, 200, 0, 50)
+	text4.Font = Enum.Font.Gotham
+	text4.Text = "GJ [40]"
+	text4.TextColor3 = Color3.fromRGB(0, 0, 0)
+	text4.TextSize = 20.000
+	text4.MouseButton1Down:connect(function()
+		-- R6 Only
+	
+		local A_1 = "Bir."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait (1)
+		local A_1 = "İki."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Üç."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Dört."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Beş."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Altı."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Yedi."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Sekiz."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Dokuz."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "On."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "On bir."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "On iki."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "On üç."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "On dört."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "On beş."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "On altı."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "On yedi."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "On sekiz."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "On dokuz."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Yirmi."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Yirmi bir."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Yirmi iki."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Yirmi üç."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Yirmi dört."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Yirmi beş."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Yirmi altı."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Yirmi yedi."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Yirmi sekiz."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		local A_1 = "Yirmi dokuz."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Otuz."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait (1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait (1)
+		local A_1 = "Otuz bir."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Otuz iki."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Otuz üç."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Otuz dört."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Otuz beş."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Otuz altı."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Otuz yedi."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Otuz sekiz."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Otuz dokuz."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Kırk."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(10000000000000000)
+		function Iterate(instance, func)
+			for i, v in next, instance:GetChildren() do
+				func(v)
+			end
+		end
+		limbs = {
+			["Right Leg"] = true;
+			["Right Arm"] = true;
+			["Left Leg"] = true;
+			["Left Arm"] = true;
+		}
+		Iterate(LocalPlayer.Character, function(v)
+			if v:IsA("BasePart") then
+				local attachment = Instance.new("Attachment")
+				attachment.Parent = v
+				attachment.Name = (v.Name .. "[Attachment]")
+				if limbs[v.Name] then
+					attachment.Position = Vector3.new(0, v.Size.Y/2, 0)
+				elseif v.Name == "Head" then
+					attachment.Position = Vector3.new(0, -v.Size.Y/2, 0)
+					attachment.Rotation = Vector3.new(0, 0, -90)
+				end
+			end
+		end)
+		local leftLegAttachment = Instance.new("Attachment")
+		leftLegAttachment.Position = Vector3.new(-.5, -1, 0)
+		leftLegAttachment.Rotation = Vector3.new(0, -90, 0)
+		local rightLegAttachment = Instance.new("Attachment")
+		rightLegAttachment.Position = Vector3.new(.5, -1, 0)
+		rightLegAttachment.Rotation = Vector3.new(0, -90, 0)
+		rightLegAttachment.Parent, leftLegAttachment.Parent = LocalPlayer.Character.Torso, LocalPlayer.Character.Torso
+		jointAttachments = {
+			['Head'] = {
+				['Attachment0'] = LocalPlayer.Character.Torso['NeckAttachment'];
+				['Attachment1'] = LocalPlayer.Character.Head['Head[Attachment]'];
+			};
+			['Left Arm'] = {
+				['Attachment0'] = LocalPlayer.Character.Torso['LeftCollarAttachment'];
+				['Attachment1'] = LocalPlayer.Character['Left Arm']['Left Arm[Attachment]'];
+			};
+			['Right Arm'] = {
+				['Attachment0'] = LocalPlayer.Character.Torso['RightCollarAttachment'];
+				['Attachment1'] = LocalPlayer.Character['Right Arm']['Right Arm[Attachment]'];
+			};
+			['Left Leg'] = {
+				['Attachment0'] = leftLegAttachment;
+				['Attachment1'] = LocalPlayer.Character['Left Leg']['Left Leg[Attachment]'];
+			};
+			['Right Leg'] = {
+				['Attachment0'] = rightLegAttachment;
+				['Attachment1'] = LocalPlayer.Character['Right Leg']['Right Leg[Attachment]'];
+			};
+		}
+		LocalPlayer.Character.Humanoid.PlatformStand = true
+		Iterate(LocalPlayer.Character, function(v)
+			if v:IsA("BasePart") then
+				if jointAttachments[v.Name] then
+					local ballSocketJoint = Instance.new("BallSocketConstraint")
+					ballSocketJoint.Parent = v
+					ballSocketJoint.Radius = 0.15
+					ballSocketJoint.Attachment0, ballSocketJoint.Attachment1 = jointAttachments[v.Name]['Attachment0'], jointAttachments[v.Name]['Attachment1']
+				end
+			end
+		end)
+		Iterate(LocalPlayer.Character.Torso, function(v)
+			if v:IsA("Motor") then
+				v:Remove()
+			end
+		end)
+	end)
+	
+	text3.Name = "text3"
+	text3.Parent = Frame
+	text3.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+	text3.Position = UDim2.new(0.0520014353, 0, 0.437163621, 0)
+	text3.Size = UDim2.new(0, 200, 0, 50)
+	text3.Font = Enum.Font.Gotham
+	text3.Text = "GJ [30]"
+	text3.TextColor3 = Color3.fromRGB(0, 0, 0)
+	text3.TextSize = 20.000
+	text3.MouseButton1Down:connect(function()
+		-- R6 Only
+	
+		local A_1 = "Bir."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait (1)
+		local A_1 = "İki."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Üç."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Dört."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Beş."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Altı."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Yedi."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Sekiz."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Dokuz."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "On."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "On bir."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "On iki."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "On üç."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "On dört."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "On beş."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "On altı."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "On yedi."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "On sekiz."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "On dokuz."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Yirmi."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Yirmi bir."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Yirmi iki."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Yirmi üç."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Yirmi dört."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Yirmi beş."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Yirmi altı."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Yirmi yedi."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Yirmi sekiz."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		local A_1 = "Yirmi dokuz."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Otuz."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(10000000000000000)
+		function Iterate(instance, func)
+			for i, v in next, instance:GetChildren() do
+				func(v)
+			end
+		end
+		limbs = {
+			["Right Leg"] = true;
+			["Right Arm"] = true;
+			["Left Leg"] = true;
+			["Left Arm"] = true;
+		}
+		Iterate(LocalPlayer.Character, function(v)
+			if v:IsA("BasePart") then
+				local attachment = Instance.new("Attachment")
+				attachment.Parent = v
+				attachment.Name = (v.Name .. "[Attachment]")
+				if limbs[v.Name] then
+					attachment.Position = Vector3.new(0, v.Size.Y/2, 0)
+				elseif v.Name == "Head" then
+					attachment.Position = Vector3.new(0, -v.Size.Y/2, 0)
+					attachment.Rotation = Vector3.new(0, 0, -90)
+				end
+			end
+		end)
+		local leftLegAttachment = Instance.new("Attachment")
+		leftLegAttachment.Position = Vector3.new(-.5, -1, 0)
+		leftLegAttachment.Rotation = Vector3.new(0, -90, 0)
+		local rightLegAttachment = Instance.new("Attachment")
+		rightLegAttachment.Position = Vector3.new(.5, -1, 0)
+		rightLegAttachment.Rotation = Vector3.new(0, -90, 0)
+		rightLegAttachment.Parent, leftLegAttachment.Parent = LocalPlayer.Character.Torso, LocalPlayer.Character.Torso
+		jointAttachments = {
+			['Head'] = {
+				['Attachment0'] = LocalPlayer.Character.Torso['NeckAttachment'];
+				['Attachment1'] = LocalPlayer.Character.Head['Head[Attachment]'];
+			};
+			['Left Arm'] = {
+				['Attachment0'] = LocalPlayer.Character.Torso['LeftCollarAttachment'];
+				['Attachment1'] = LocalPlayer.Character['Left Arm']['Left Arm[Attachment]'];
+			};
+			['Right Arm'] = {
+				['Attachment0'] = LocalPlayer.Character.Torso['RightCollarAttachment'];
+				['Attachment1'] = LocalPlayer.Character['Right Arm']['Right Arm[Attachment]'];
+			};
+			['Left Leg'] = {
+				['Attachment0'] = leftLegAttachment;
+				['Attachment1'] = LocalPlayer.Character['Left Leg']['Left Leg[Attachment]'];
+			};
+			['Right Leg'] = {
+				['Attachment0'] = rightLegAttachment;
+				['Attachment1'] = LocalPlayer.Character['Right Leg']['Right Leg[Attachment]'];
+			};
+		}
+		LocalPlayer.Character.Humanoid.PlatformStand = true
+		Iterate(LocalPlayer.Character, function(v)
+			if v:IsA("BasePart") then
+				if jointAttachments[v.Name] then
+					local ballSocketJoint = Instance.new("BallSocketConstraint")
+					ballSocketJoint.Parent = v
+					ballSocketJoint.Radius = 0.15
+					ballSocketJoint.Attachment0, ballSocketJoint.Attachment1 = jointAttachments[v.Name]['Attachment0'], jointAttachments[v.Name]['Attachment1']
+				end
+			end
+		end)
+		Iterate(LocalPlayer.Character.Torso, function(v)
+			if v:IsA("Motor") then
+				v:Remove()
+			end
+		end)
+	end)
+	
+	text2.Name = "text2"
+	text2.Parent = Frame
+	text2.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+	text2.Position = UDim2.new(0.0520014353, 0, 0.624663532, 0)
+	text2.Size = UDim2.new(0, 200, 0, 50)
+	text2.Font = Enum.Font.Gotham
+	text2.Text = "GJ [20]"
+	text2.TextColor3 = Color3.fromRGB(0, 0, 0)
+	text2.TextSize = 20.000
+	text2.MouseButton1Down:connect(function()
+		-- R6 Only
+	
+		local A_1 = "Bir."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait (1)
+		local A_1 = "İki."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Üç."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Dört."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Beş."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Altı."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Yedi."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Sekiz."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Dokuz."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "On."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "On bir."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "On iki."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "On üç."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "On dört."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "On beş."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "On altı."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "On yedi."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "On sekiz."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "On dokuz."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Yirmi."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(10000000000000000)
+		function Iterate(instance, func)
+			for i, v in next, instance:GetChildren() do
+				func(v)
+			end
+		end
+		limbs = {
+			["Right Leg"] = true;
+			["Right Arm"] = true;
+			["Left Leg"] = true;
+			["Left Arm"] = true;
+		}
+		Iterate(LocalPlayer.Character, function(v)
+			if v:IsA("BasePart") then
+				local attachment = Instance.new("Attachment")
+				attachment.Parent = v
+				attachment.Name = (v.Name .. "[Attachment]")
+				if limbs[v.Name] then
+					attachment.Position = Vector3.new(0, v.Size.Y/2, 0)
+				elseif v.Name == "Head" then
+					attachment.Position = Vector3.new(0, -v.Size.Y/2, 0)
+					attachment.Rotation = Vector3.new(0, 0, -90)
+				end
+			end
+		end)
+		local leftLegAttachment = Instance.new("Attachment")
+		leftLegAttachment.Position = Vector3.new(-.5, -1, 0)
+		leftLegAttachment.Rotation = Vector3.new(0, -90, 0)
+		local rightLegAttachment = Instance.new("Attachment")
+		rightLegAttachment.Position = Vector3.new(.5, -1, 0)
+		rightLegAttachment.Rotation = Vector3.new(0, -90, 0)
+		rightLegAttachment.Parent, leftLegAttachment.Parent = LocalPlayer.Character.Torso, LocalPlayer.Character.Torso
+		jointAttachments = {
+			['Head'] = {
+				['Attachment0'] = LocalPlayer.Character.Torso['NeckAttachment'];
+				['Attachment1'] = LocalPlayer.Character.Head['Head[Attachment]'];
+			};
+			['Left Arm'] = {
+				['Attachment0'] = LocalPlayer.Character.Torso['LeftCollarAttachment'];
+				['Attachment1'] = LocalPlayer.Character['Left Arm']['Left Arm[Attachment]'];
+			};
+			['Right Arm'] = {
+				['Attachment0'] = LocalPlayer.Character.Torso['RightCollarAttachment'];
+				['Attachment1'] = LocalPlayer.Character['Right Arm']['Right Arm[Attachment]'];
+			};
+			['Left Leg'] = {
+				['Attachment0'] = leftLegAttachment;
+				['Attachment1'] = LocalPlayer.Character['Left Leg']['Left Leg[Attachment]'];
+			};
+			['Right Leg'] = {
+				['Attachment0'] = rightLegAttachment;
+				['Attachment1'] = LocalPlayer.Character['Right Leg']['Right Leg[Attachment]'];
+			};
+		}
+		LocalPlayer.Character.Humanoid.PlatformStand = true
+		Iterate(LocalPlayer.Character, function(v)
+			if v:IsA("BasePart") then
+				if jointAttachments[v.Name] then
+					local ballSocketJoint = Instance.new("BallSocketConstraint")
+					ballSocketJoint.Parent = v
+					ballSocketJoint.Radius = 0.15
+					ballSocketJoint.Attachment0, ballSocketJoint.Attachment1 = jointAttachments[v.Name]['Attachment0'], jointAttachments[v.Name]['Attachment1']
+				end
+			end
+		end)
+		Iterate(LocalPlayer.Character.Torso, function(v)
+			if v:IsA("Motor") then
+				v:Remove()
+			end
+		end)
+	end)
+	
+	text1.Name = "text1"
+	text1.Parent = Frame
+	text1.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+	text1.Position = UDim2.new(0.047537148, 0, 0.797569871, 0)
+	text1.Size = UDim2.new(0, 200, 0, 50)
+	text1.Font = Enum.Font.Gotham
+	text1.Text = "GJ [10]"
+	text1.TextColor3 = Color3.fromRGB(0, 0, 0)
+	text1.TextSize = 20.000
+	text1.MouseButton1Down:connect(function()
+		-- R6 Only
+	
+		local A_1 = "Bir."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait (1)
+		local A_1 = "İki."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Üç."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Dört."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Beş."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Altı."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Yedi."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Sekiz."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Dokuz."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "On."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(10000000000000000)
+		function Iterate(instance, func)
+			for i, v in next, instance:GetChildren() do
+				func(v)
+			end
+		end
+		limbs = {
+			["Right Leg"] = true;
+			["Right Arm"] = true;
+			["Left Leg"] = true;
+			["Left Arm"] = true;
+		}
+		Iterate(LocalPlayer.Character, function(v)
+			if v:IsA("BasePart") then
+				local attachment = Instance.new("Attachment")
+				attachment.Parent = v
+				attachment.Name = (v.Name .. "[Attachment]")
+				if limbs[v.Name] then
+					attachment.Position = Vector3.new(0, v.Size.Y/2, 0)
+				elseif v.Name == "Head" then
+					attachment.Position = Vector3.new(0, -v.Size.Y/2, 0)
+					attachment.Rotation = Vector3.new(0, 0, -90)
+				end
+			end
+		end)
+		local leftLegAttachment = Instance.new("Attachment")
+		leftLegAttachment.Position = Vector3.new(-.5, -1, 0)
+		leftLegAttachment.Rotation = Vector3.new(0, -90, 0)
+		local rightLegAttachment = Instance.new("Attachment")
+		rightLegAttachment.Position = Vector3.new(.5, -1, 0)
+		rightLegAttachment.Rotation = Vector3.new(0, -90, 0)
+		rightLegAttachment.Parent, leftLegAttachment.Parent = LocalPlayer.Character.Torso, LocalPlayer.Character.Torso
+		jointAttachments = {
+			['Head'] = {
+				['Attachment0'] = LocalPlayer.Character.Torso['NeckAttachment'];
+				['Attachment1'] = LocalPlayer.Character.Head['Head[Attachment]'];
+			};
+			['Left Arm'] = {
+				['Attachment0'] = LocalPlayer.Character.Torso['LeftCollarAttachment'];
+				['Attachment1'] = LocalPlayer.Character['Left Arm']['Left Arm[Attachment]'];
+			};
+			['Right Arm'] = {
+				['Attachment0'] = LocalPlayer.Character.Torso['RightCollarAttachment'];
+				['Attachment1'] = LocalPlayer.Character['Right Arm']['Right Arm[Attachment]'];
+			};
+			['Left Leg'] = {
+				['Attachment0'] = leftLegAttachment;
+				['Attachment1'] = LocalPlayer.Character['Left Leg']['Left Leg[Attachment]'];
+			};
+			['Right Leg'] = {
+				['Attachment0'] = rightLegAttachment;
+				['Attachment1'] = LocalPlayer.Character['Right Leg']['Right Leg[Attachment]'];
+			};
+		}
+		LocalPlayer.Character.Humanoid.PlatformStand = true
+		Iterate(LocalPlayer.Character, function(v)
+			if v:IsA("BasePart") then
+				if jointAttachments[v.Name] then
+					local ballSocketJoint = Instance.new("BallSocketConstraint")
+					ballSocketJoint.Parent = v
+					ballSocketJoint.Radius = 0.15
+					ballSocketJoint.Attachment0, ballSocketJoint.Attachment1 = jointAttachments[v.Name]['Attachment0'], jointAttachments[v.Name]['Attachment1']
+				end
+			end
+		end)
+		Iterate(LocalPlayer.Character.Torso, function(v)
+			if v:IsA("Motor") then
+				v:Remove()
+			end
+		end)
+	end)
+	-- Gui to Lua
+	-- Version: 3.2
+	
+	-- Instances:
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Script Made by";
+		Text = "Điα Lextra Ꮠ#0001 And !? Eren#0006";
+		Icon = "https://cdn.discordapp.com/attachments/1038391027683303454/1038391716476096523/d7cdacf19020ddbe34de5ccceb2a82e8.png";
+		Duration = 100000000000000;
+	})
+	local hi = Instance.new("Sound")
+	hi.Name = "Sound"
+	hi.SoundId = "asdasdasd"
+	hi.Volume = 2
+	hi.Looped = true
+	hi.archivable = false
+	hi.Parent = game.Workspace
+	
+	
+	hi:Play()
+	
+	local speaker = game.Players.LocalPlayer
+	
+	local ScreenGui = Instance.new("ScreenGui")
+	local Frame = Instance.new("Frame")
+	local bsb3 = Instance.new("TextButton")
+	local TextButton = Instance.new("TextButton")
+	local bsb5 = Instance.new("TextButton")
+	local bsb7 = Instance.new("TextButton")
+	local bsb10 = Instance.new("TextButton")
+	
+	--Properties:
+	
+	ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+	ScreenGui.ResetOnSpawn = false
+	
+	Frame.Parent = ScreenGui
+	Frame.BackgroundColor3 = Color3.fromRGB(97, 0, 2)
+	Frame.Position = UDim2.new(0.658512712, 0, 0.153198659, 0)
+	Frame.Size = UDim2.new(0, 244, 0, 461)
+	Frame.Active = true
+	Frame.Draggable = true
+	
+	bsb3.Name = "bsb3"
+	bsb3.Parent = Frame
+	bsb3.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+	bsb3.Position = UDim2.new(0.0898752213, 0, 0.17699039, 0)
+	bsb3.Size = UDim2.new(0, 200, 0, 53)
+	bsb3.Font = Enum.Font.Bangers
+	bsb3.Text = "3 HJ"
+	bsb3.TextColor3 = Color3.fromRGB(0, 0, 0)
+	bsb3.TextSize = 30.000
+	bsb3.MouseButton1Down:connect(function()
+		-- R6 Only
+	
+		local A_1 = "B"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait (1)
+		local A_1 = "İ."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "R"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "BİR"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "İ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "K"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "İ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "İKİ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Ü"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Ç"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ÜÇ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(10000000000000000)
+		function Iterate(instance, func)
+			for i, v in next, instance:GetChildren() do
+				func(v)
+			end
+		end
+		limbs = {
+			["Right Leg"] = true;
+			["Right Arm"] = true;
+			["Left Leg"] = true;
+			["Left Arm"] = true;
+		}
+		Iterate(LocalPlayer.Character, function(v)
+			if v:IsA("BasePart") then
+				local attachment = Instance.new("Attachment")
+				attachment.Parent = v
+				attachment.Name = (v.Name .. "[Attachment]")
+				if limbs[v.Name] then
+					attachment.Position = Vector3.new(0, v.Size.Y/2, 0)
+				elseif v.Name == "Head" then
+					attachment.Position = Vector3.new(0, -v.Size.Y/2, 0)
+					attachment.Rotation = Vector3.new(0, 0, -90)
+				end
+			end
+		end)
+		local leftLegAttachment = Instance.new("Attachment")
+		leftLegAttachment.Position = Vector3.new(-.5, -1, 0)
+		leftLegAttachment.Rotation = Vector3.new(0, -90, 0)
+		local rightLegAttachment = Instance.new("Attachment")
+		rightLegAttachment.Position = Vector3.new(.5, -1, 0)
+		rightLegAttachment.Rotation = Vector3.new(0, -90, 0)
+		rightLegAttachment.Parent, leftLegAttachment.Parent = LocalPlayer.Character.Torso, LocalPlayer.Character.Torso
+		jointAttachments = {
+			['Head'] = {
+				['Attachment0'] = LocalPlayer.Character.Torso['NeckAttachment'];
+				['Attachment1'] = LocalPlayer.Character.Head['Head[Attachment]'];
+			};
+			['Left Arm'] = {
+				['Attachment0'] = LocalPlayer.Character.Torso['LeftCollarAttachment'];
+				['Attachment1'] = LocalPlayer.Character['Left Arm']['Left Arm[Attachment]'];
+			};
+			['Right Arm'] = {
+				['Attachment0'] = LocalPlayer.Character.Torso['RightCollarAttachment'];
+				['Attachment1'] = LocalPlayer.Character['Right Arm']['Right Arm[Attachment]'];
+			};
+			['Left Leg'] = {
+				['Attachment0'] = leftLegAttachment;
+				['Attachment1'] = LocalPlayer.Character['Left Leg']['Left Leg[Attachment]'];
+			};
+			['Right Leg'] = {
+				['Attachment0'] = rightLegAttachment;
+				['Attachment1'] = LocalPlayer.Character['Right Leg']['Right Leg[Attachment]'];
+			};
+		}
+		LocalPlayer.Character.Humanoid.PlatformStand = true
+		Iterate(LocalPlayer.Character, function(v)
+			if v:IsA("BasePart") then
+				if jointAttachments[v.Name] then
+					local ballSocketJoint = Instance.new("BallSocketConstraint")
+					ballSocketJoint.Parent = v
+					ballSocketJoint.Radius = 0.15
+					ballSocketJoint.Attachment0, ballSocketJoint.Attachment1 = jointAttachments[v.Name]['Attachment0'], jointAttachments[v.Name]['Attachment1']
+				end
+			end
+		end)
+		Iterate(LocalPlayer.Character.Torso, function(v)
+			if v:IsA("Motor") then
+				v:Remove()
+			end
+		end)
+	end)
+	
+	TextButton.Parent = Frame
+	TextButton.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+	TextButton.Position = UDim2.new(-0.00132334232, 0, -0.000814348459, 0)
+	TextButton.Size = UDim2.new(0, 244, 0, 50)
+	TextButton.Font = Enum.Font.PermanentMarker
+	TextButton.Text = "Lexer"
+	TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+	TextButton.TextSize = 50.000
+	
+	bsb5.Name = "bsb5"
+	bsb5.Parent = Frame
+	bsb5.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+	bsb5.Position = UDim2.new(0.085776858, 0, 0.363541365, 0)
+	bsb5.Size = UDim2.new(0, 200, 0, 53)
+	bsb5.Font = Enum.Font.Bangers
+	bsb5.Text = "5 HJ"
+	bsb5.TextColor3 = Color3.fromRGB(0, 0, 0)
+	bsb5.TextSize = 30.000
+	bsb5.MouseButton1Down:connect(function()
+		-- R6 Only
+	
+		local A_1 = "B"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait (1)
+		local A_1 = "İ."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "R"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "BİR"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "İ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "K"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "İ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "İKİ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Ü"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Ç"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ÜÇ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "D"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Ö"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "R"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "T"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "DÖRT"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "B"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "E"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Ş"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "BEŞ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(10000000000000000)
+		function Iterate(instance, func)
+			for i, v in next, instance:GetChildren() do
+				func(v)
+			end
+		end
+		limbs = {
+			["Right Leg"] = true;
+			["Right Arm"] = true;
+			["Left Leg"] = true;
+			["Left Arm"] = true;
+		}
+		Iterate(LocalPlayer.Character, function(v)
+			if v:IsA("BasePart") then
+				local attachment = Instance.new("Attachment")
+				attachment.Parent = v
+				attachment.Name = (v.Name .. "[Attachment]")
+				if limbs[v.Name] then
+					attachment.Position = Vector3.new(0, v.Size.Y/2, 0)
+				elseif v.Name == "Head" then
+					attachment.Position = Vector3.new(0, -v.Size.Y/2, 0)
+					attachment.Rotation = Vector3.new(0, 0, -90)
+				end
+			end
+		end)
+		local leftLegAttachment = Instance.new("Attachment")
+		leftLegAttachment.Position = Vector3.new(-.5, -1, 0)
+		leftLegAttachment.Rotation = Vector3.new(0, -90, 0)
+		local rightLegAttachment = Instance.new("Attachment")
+		rightLegAttachment.Position = Vector3.new(.5, -1, 0)
+		rightLegAttachment.Rotation = Vector3.new(0, -90, 0)
+		rightLegAttachment.Parent, leftLegAttachment.Parent = LocalPlayer.Character.Torso, LocalPlayer.Character.Torso
+		jointAttachments = {
+			['Head'] = {
+				['Attachment0'] = LocalPlayer.Character.Torso['NeckAttachment'];
+				['Attachment1'] = LocalPlayer.Character.Head['Head[Attachment]'];
+			};
+			['Left Arm'] = {
+				['Attachment0'] = LocalPlayer.Character.Torso['LeftCollarAttachment'];
+				['Attachment1'] = LocalPlayer.Character['Left Arm']['Left Arm[Attachment]'];
+			};
+			['Right Arm'] = {
+				['Attachment0'] = LocalPlayer.Character.Torso['RightCollarAttachment'];
+				['Attachment1'] = LocalPlayer.Character['Right Arm']['Right Arm[Attachment]'];
+			};
+			['Left Leg'] = {
+				['Attachment0'] = leftLegAttachment;
+				['Attachment1'] = LocalPlayer.Character['Left Leg']['Left Leg[Attachment]'];
+			};
+			['Right Leg'] = {
+				['Attachment0'] = rightLegAttachment;
+				['Attachment1'] = LocalPlayer.Character['Right Leg']['Right Leg[Attachment]'];
+			};
+		}
+		LocalPlayer.Character.Humanoid.PlatformStand = true
+		Iterate(LocalPlayer.Character, function(v)
+			if v:IsA("BasePart") then
+				if jointAttachments[v.Name] then
+					local ballSocketJoint = Instance.new("BallSocketConstraint")
+					ballSocketJoint.Parent = v
+					ballSocketJoint.Radius = 0.15
+					ballSocketJoint.Attachment0, ballSocketJoint.Attachment1 = jointAttachments[v.Name]['Attachment0'], jointAttachments[v.Name]['Attachment1']
+				end
+			end
+		end)
+		Iterate(LocalPlayer.Character.Torso, function(v)
+			if v:IsA("Motor") then
+				v:Remove()
+			end
+		end)
+	end)
+	
+	bsb7.Name = "bsb7"
+	bsb7.Parent = Frame
+	bsb7.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+	bsb7.Position = UDim2.new(0.0898752213, 0, 0.558769107, 0)
+	bsb7.Size = UDim2.new(0, 200, 0, 53)
+	bsb7.Font = Enum.Font.Bangers
+	bsb7.Text = "7 HJ"
+	bsb7.TextColor3 = Color3.fromRGB(0, 0, 0)
+	bsb7.TextSize = 30.000
+	bsb7.MouseButton1Down:connect(function()
+		-- R6 Only
+	
+		local A_1 = "B"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait (1)
+		local A_1 = "İ."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "R"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "BİR"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "İ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "K"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "İ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "İKİ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Ü"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Ç"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ÜÇ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "D"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Ö"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "R"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "T"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "DÖRT"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "B"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "E"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Ş"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "BEŞ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "A"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "L"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "T"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "I"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ALTI"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Y"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "E"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "D"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		local A_1 = "İ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "YEDİ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(10000000000000000)
+		function Iterate(instance, func)
+			for i, v in next, instance:GetChildren() do
+				func(v)
+			end
+		end
+		limbs = {
+			["Right Leg"] = true;
+			["Right Arm"] = true;
+			["Left Leg"] = true;
+			["Left Arm"] = true;
+		}
+		Iterate(LocalPlayer.Character, function(v)
+			if v:IsA("BasePart") then
+				local attachment = Instance.new("Attachment")
+				attachment.Parent = v
+				attachment.Name = (v.Name .. "[Attachment]")
+				if limbs[v.Name] then
+					attachment.Position = Vector3.new(0, v.Size.Y/2, 0)
+				elseif v.Name == "Head" then
+					attachment.Position = Vector3.new(0, -v.Size.Y/2, 0)
+					attachment.Rotation = Vector3.new(0, 0, -90)
+				end
+			end
+		end)
+		local leftLegAttachment = Instance.new("Attachment")
+		leftLegAttachment.Position = Vector3.new(-.5, -1, 0)
+		leftLegAttachment.Rotation = Vector3.new(0, -90, 0)
+		local rightLegAttachment = Instance.new("Attachment")
+		rightLegAttachment.Position = Vector3.new(.5, -1, 0)
+		rightLegAttachment.Rotation = Vector3.new(0, -90, 0)
+		rightLegAttachment.Parent, leftLegAttachment.Parent = LocalPlayer.Character.Torso, LocalPlayer.Character.Torso
+		jointAttachments = {
+			['Head'] = {
+				['Attachment0'] = LocalPlayer.Character.Torso['NeckAttachment'];
+				['Attachment1'] = LocalPlayer.Character.Head['Head[Attachment]'];
+			};
+			['Left Arm'] = {
+				['Attachment0'] = LocalPlayer.Character.Torso['LeftCollarAttachment'];
+				['Attachment1'] = LocalPlayer.Character['Left Arm']['Left Arm[Attachment]'];
+			};
+			['Right Arm'] = {
+				['Attachment0'] = LocalPlayer.Character.Torso['RightCollarAttachment'];
+				['Attachment1'] = LocalPlayer.Character['Right Arm']['Right Arm[Attachment]'];
+			};
+			['Left Leg'] = {
+				['Attachment0'] = leftLegAttachment;
+				['Attachment1'] = LocalPlayer.Character['Left Leg']['Left Leg[Attachment]'];
+			};
+			['Right Leg'] = {
+				['Attachment0'] = rightLegAttachment;
+				['Attachment1'] = LocalPlayer.Character['Right Leg']['Right Leg[Attachment]'];
+			};
+		}
+		LocalPlayer.Character.Humanoid.PlatformStand = true
+		Iterate(LocalPlayer.Character, function(v)
+			if v:IsA("BasePart") then
+				if jointAttachments[v.Name] then
+					local ballSocketJoint = Instance.new("BallSocketConstraint")
+					ballSocketJoint.Parent = v
+					ballSocketJoint.Radius = 0.15
+					ballSocketJoint.Attachment0, ballSocketJoint.Attachment1 = jointAttachments[v.Name]['Attachment0'], jointAttachments[v.Name]['Attachment1']
+				end
+			end
+		end)
+		Iterate(LocalPlayer.Character.Torso, function(v)
+			if v:IsA("Motor") then
+				v:Remove()
+			end
+		end)
+	end)
+	
+	bsb10.Name = "bsb10"
+	bsb10.Parent = Frame
+	bsb10.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+	bsb10.Position = UDim2.new(0.0898752213, 0, 0.756166101, 0)
+	bsb10.Size = UDim2.new(0, 200, 0, 53)
+	bsb10.Font = Enum.Font.Bangers
+	bsb10.Text = "10 HJ"
+	bsb10.TextColor3 = Color3.fromRGB(0, 0, 0)
+	bsb10.TextSize = 30.000
+	bsb10.MouseButton1Down:connect(function()
+		-- R6 Only
+	
+		local A_1 = "B"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait (1)
+		local A_1 = "İ."
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "R"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "BİR"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "İ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "K"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "İ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "İKİ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Ü"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Ç"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ÜÇ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "D"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Ö"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "R"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "T"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "DÖRT"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "B"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "E"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Ş"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "BEŞ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "A"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "L"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "T"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "I"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ALTI"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Y"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "E"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "D"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		local A_1 = "İ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "YEDİ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "S"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "E"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "K"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "İ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Z"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "SEKİZ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "D"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "O"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "K"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "U"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "Z"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "DOKUZ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "O"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "N"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ON"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(10000000000000000)
+		function Iterate(instance, func)
+			for i, v in next, instance:GetChildren() do
+				func(v)
+			end
+		end
+		limbs = {
+			["Right Leg"] = true;
+			["Right Arm"] = true;
+			["Left Leg"] = true;
+			["Left Arm"] = true;
+		}
+		Iterate(LocalPlayer.Character, function(v)
+			if v:IsA("BasePart") then
+				local attachment = Instance.new("Attachment")
+				attachment.Parent = v
+				attachment.Name = (v.Name .. "[Attachment]")
+				if limbs[v.Name] then
+					attachment.Position = Vector3.new(0, v.Size.Y/2, 0)
+				elseif v.Name == "Head" then
+					attachment.Position = Vector3.new(0, -v.Size.Y/2, 0)
+					attachment.Rotation = Vector3.new(0, 0, -90)
+				end
+			end
+		end)
+		local leftLegAttachment = Instance.new("Attachment")
+		leftLegAttachment.Position = Vector3.new(-.5, -1, 0)
+		leftLegAttachment.Rotation = Vector3.new(0, -90, 0)
+		local rightLegAttachment = Instance.new("Attachment")
+		rightLegAttachment.Position = Vector3.new(.5, -1, 0)
+		rightLegAttachment.Rotation = Vector3.new(0, -90, 0)
+		rightLegAttachment.Parent, leftLegAttachment.Parent = LocalPlayer.Character.Torso, LocalPlayer.Character.Torso
+		jointAttachments = {
+			['Head'] = {
+				['Attachment0'] = LocalPlayer.Character.Torso['NeckAttachment'];
+				['Attachment1'] = LocalPlayer.Character.Head['Head[Attachment]'];
+			};
+			['Left Arm'] = {
+				['Attachment0'] = LocalPlayer.Character.Torso['LeftCollarAttachment'];
+				['Attachment1'] = LocalPlayer.Character['Left Arm']['Left Arm[Attachment]'];
+			};
+			['Right Arm'] = {
+				['Attachment0'] = LocalPlayer.Character.Torso['RightCollarAttachment'];
+				['Attachment1'] = LocalPlayer.Character['Right Arm']['Right Arm[Attachment]'];
+			};
+			['Left Leg'] = {
+				['Attachment0'] = leftLegAttachment;
+				['Attachment1'] = LocalPlayer.Character['Left Leg']['Left Leg[Attachment]'];
+			};
+			['Right Leg'] = {
+				['Attachment0'] = rightLegAttachment;
+				['Attachment1'] = LocalPlayer.Character['Right Leg']['Right Leg[Attachment]'];
+			};
+		}
+		LocalPlayer.Character.Humanoid.PlatformStand = true
+		Iterate(LocalPlayer.Character, function(v)
+			if v:IsA("BasePart") then
+				if jointAttachments[v.Name] then
+					local ballSocketJoint = Instance.new("BallSocketConstraint")
+					ballSocketJoint.Parent = v
+					ballSocketJoint.Radius = 0.15
+					ballSocketJoint.Attachment0, ballSocketJoint.Attachment1 = jointAttachments[v.Name]['Attachment0'], jointAttachments[v.Name]['Attachment1']
+				end
+			end
+		end)
+		Iterate(LocalPlayer.Character.Torso, function(v)
+			if v:IsA("Motor") then
+				v:Remove()
+			end
+		end)
+	end)
+	-- Gui to Lua
+	-- Version: 3.2
+	
+	-- Instances:
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Script Made by";
+		Text = "Điα Lextra Ꮠ#0001 And !? Eren#0006";
+		Icon = "https://cdn.discordapp.com/attachments/1038391027683303454/1038391716476096523/d7cdacf19020ddbe34de5ccceb2a82e8.png";
+		Duration = 100000000000000;
+	})
+	local hi = Instance.new("Sound")
+	hi.Name = "Sound"
+	hi.SoundId = "asdasdasd"
+	hi.Volume = 2
+	hi.Looped = true
+	hi.archivable = false
+	hi.Parent = game.Workspace
+	
+	
+	hi:Play()
+	
+	local speaker = game.Players.LocalPlayer
+	
+	local ScreenGui = Instance.new("ScreenGui")
+	local Frame = Instance.new("Frame")
+	local txt60 = Instance.new("TextButton")
+	local TextButton = Instance.new("TextButton")
+	local txt50 = Instance.new("TextButton")
+	local txt40 = Instance.new("TextButton")
+	local txt30 = Instance.new("TextButton")
+	local txt20 = Instance.new("TextButton")
+	
+	--Properties:
+	
+	ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+	ScreenGui.ResetOnSpawn = false
+	
+	Frame.Parent = ScreenGui
+	Frame.BackgroundColor3 = Color3.fromRGB(89, 53, 87)
+	Frame.Position = UDim2.new(0.704927981, 0, 0.0301019438, 0)
+	Frame.Size = UDim2.new(0, 224, 0, 452)
+	Frame.Active = true
+	Frame.Draggable = true
+	
+	txt60.Name = "txt60"
+	txt60.Parent = Frame
+	txt60.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+	txt60.Position = UDim2.new(0.047537148, 0, 0.1360448, 0)
+	txt60.Size = UDim2.new(0, 200, 0, 50)
+	txt60.Font = Enum.Font.Gotham
+	txt60.Text = "JJ [60]"
+	txt60.TextColor3 = Color3.fromRGB(0, 0, 0)
+	txt60.TextSize = 20.000
+	txt60.MouseButton1Down:connect(function()
+		-- R6 Only
+	
+		local A_1 = "BİR"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait (1)
+		local A_1 = "İKİ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "UÇ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "DÖRT"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "BEŞ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ALTI"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "YEDİ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "SEKİZ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "DOKUZ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ON"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ON BİR"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ON İKİ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ON ÜÇ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ON DÖRT"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ON BEŞ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ON ALTI"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ON YEDİ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ON SEKİZ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ON DOKUZ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "YİRMİ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "YİRMİ BİR"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "YİRMİ İKİ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "YİRMİ ÜÇ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "YİRMİ DÖRT"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "YİRMİ BEŞ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "YİRMİ ALTI"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "YİRMİ YEDİ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "YİRMİ SEKİZ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		local A_1 = "YİRMİ DOKUZ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "OTUZ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait (1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait (1)
+		local A_1 = "OTUZ BİR"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "OTUZ İKİ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "OTUZ ÜÇ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "OTUZ DÖRT"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "OTUZ BEŞ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "OTUZ ALTI"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "OTUZ YEDİ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "OTUZ SEKİZ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "OTUZ DOKUZ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "KIRK"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "KIRK BİR"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "KIRK İKİ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "KIRK ÜÇ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "KIRK DÖRT"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "KIRK BEŞ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "KIRK ALTI"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "KIRK YEDİ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "KIRK SEKİZ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "KIRK DOKUZ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ELLİ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ELLİ BİR"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ELLİ İKİ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ELLİ ÜÇ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ELLİ DÖRT"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ELLİ BEŞ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ELLİ ALTI"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ELLİ YEDİ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		local A_1 = "ELLİ SEKİZ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ELLİ DOKUZ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ALTMIŞ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(10000000000000000)
+		function Iterate(instance, func)
+			for i, v in next, instance:GetChildren() do
+				func(v)
+			end
+		end
+		limbs = {
+			["Right Leg"] = true;
+			["Right Arm"] = true;
+			["Left Leg"] = true;
+			["Left Arm"] = true;
+		}
+		Iterate(LocalPlayer.Character, function(v)
+			if v:IsA("BasePart") then
+				local attachment = Instance.new("Attachment")
+				attachment.Parent = v
+				attachment.Name = (v.Name .. "[Attachment]")
+				if limbs[v.Name] then
+					attachment.Position = Vector3.new(0, v.Size.Y/2, 0)
+				elseif v.Name == "Head" then
+					attachment.Position = Vector3.new(0, -v.Size.Y/2, 0)
+					attachment.Rotation = Vector3.new(0, 0, -90)
+				end
+			end
+		end)
+		local leftLegAttachment = Instance.new("Attachment")
+		leftLegAttachment.Position = Vector3.new(-.5, -1, 0)
+		leftLegAttachment.Rotation = Vector3.new(0, -90, 0)
+		local rightLegAttachment = Instance.new("Attachment")
+		rightLegAttachment.Position = Vector3.new(.5, -1, 0)
+		rightLegAttachment.Rotation = Vector3.new(0, -90, 0)
+		rightLegAttachment.Parent, leftLegAttachment.Parent = LocalPlayer.Character.Torso, LocalPlayer.Character.Torso
+		jointAttachments = {
+			['Head'] = {
+				['Attachment0'] = LocalPlayer.Character.Torso['NeckAttachment'];
+				['Attachment1'] = LocalPlayer.Character.Head['Head[Attachment]'];
+			};
+			['Left Arm'] = {
+				['Attachment0'] = LocalPlayer.Character.Torso['LeftCollarAttachment'];
+				['Attachment1'] = LocalPlayer.Character['Left Arm']['Left Arm[Attachment]'];
+			};
+			['Right Arm'] = {
+				['Attachment0'] = LocalPlayer.Character.Torso['RightCollarAttachment'];
+				['Attachment1'] = LocalPlayer.Character['Right Arm']['Right Arm[Attachment]'];
+			};
+			['Left Leg'] = {
+				['Attachment0'] = leftLegAttachment;
+				['Attachment1'] = LocalPlayer.Character['Left Leg']['Left Leg[Attachment]'];
+			};
+			['Right Leg'] = {
+				['Attachment0'] = rightLegAttachment;
+				['Attachment1'] = LocalPlayer.Character['Right Leg']['Right Leg[Attachment]'];
+			};
+		}
+		LocalPlayer.Character.Humanoid.PlatformStand = true
+		Iterate(LocalPlayer.Character, function(v)
+			if v:IsA("BasePart") then
+				if jointAttachments[v.Name] then
+					local ballSocketJoint = Instance.new("BallSocketConstraint")
+					ballSocketJoint.Parent = v
+					ballSocketJoint.Radius = 0.15
+					ballSocketJoint.Attachment0, ballSocketJoint.Attachment1 = jointAttachments[v.Name]['Attachment0'], jointAttachments[v.Name]['Attachment1']
+				end
+			end
+		end)
+		Iterate(LocalPlayer.Character.Torso, function(v)
+			if v:IsA("Motor") then
+				v:Remove()
+			end
+		end)
+	end)
+	
+	TextButton.Parent = Frame
+	TextButton.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
+	TextButton.Size = UDim2.new(0, 222, 0, 50)
+	TextButton.Font = Enum.Font.SourceSans
+	TextButton.Text = "Lexer"
+	TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+	TextButton.TextSize = 30.000
+	
+	txt50.Name = "txt50"
+	txt50.Parent = Frame
+	txt50.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+	txt50.Position = UDim2.new(0.0520014353, 0, 0.321647644, 0)
+	txt50.Size = UDim2.new(0, 200, 0, 50)
+	txt50.Font = Enum.Font.Gotham
+	txt50.Text = "JJ [50]"
+	txt50.TextColor3 = Color3.fromRGB(0, 0, 0)
+	txt50.TextSize = 20.000
+	txt50.MouseButton1Down:connect(function()
+		-- R6 Only
+	
+		local A_1 = "BİR"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait (1)
+		local A_1 = "İKİ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "UÇ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "DÖRT"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "BEŞ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ALTI"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "YEDİ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "SEKİZ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "DOKUZ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ON"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ON BİR"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ON İKİ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ON ÜÇ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ON DÖRT"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ON BEŞ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ON ALTI"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ON YEDİ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ON SEKİZ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ON DOKUZ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "YİRMİ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "YİRMİ BİR"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "YİRMİ İKİ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "YİRMİ ÜÇ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "YİRMİ DÖRT"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "YİRMİ BEŞ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "YİRMİ ALTI"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "YİRMİ YEDİ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "YİRMİ SEKİZ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		local A_1 = "YİRMİ DOKUZ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "OTUZ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait (1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait (1)
+		local A_1 = "OTUZ BİR"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "OTUZ İKİ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "OTUZ ÜÇ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "OTUZ DÖRT"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "OTUZ BEŞ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "OTUZ ALTI"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "OTUZ YEDİ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "OTUZ SEKİZ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "OTUZ DOKUZ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "KIRK"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "KIRK BİR"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "KIRK İKİ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "KIRK ÜÇ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "KIRK DÖRT"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "KIRK BEŞ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "KIRK ALTI"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "KIRK YEDİ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "KIRK SEKİZ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "KIRK DOKUZ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ELLİ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(10000000000000000)
+		function Iterate(instance, func)
+			for i, v in next, instance:GetChildren() do
+				func(v)
+			end
+		end
+		limbs = {
+			["Right Leg"] = true;
+			["Right Arm"] = true;
+			["Left Leg"] = true;
+			["Left Arm"] = true;
+		}
+		Iterate(LocalPlayer.Character, function(v)
+			if v:IsA("BasePart") then
+				local attachment = Instance.new("Attachment")
+				attachment.Parent = v
+				attachment.Name = (v.Name .. "[Attachment]")
+				if limbs[v.Name] then
+					attachment.Position = Vector3.new(0, v.Size.Y/2, 0)
+				elseif v.Name == "Head" then
+					attachment.Position = Vector3.new(0, -v.Size.Y/2, 0)
+					attachment.Rotation = Vector3.new(0, 0, -90)
+				end
+			end
+		end)
+		local leftLegAttachment = Instance.new("Attachment")
+		leftLegAttachment.Position = Vector3.new(-.5, -1, 0)
+		leftLegAttachment.Rotation = Vector3.new(0, -90, 0)
+		local rightLegAttachment = Instance.new("Attachment")
+		rightLegAttachment.Position = Vector3.new(.5, -1, 0)
+		rightLegAttachment.Rotation = Vector3.new(0, -90, 0)
+		rightLegAttachment.Parent, leftLegAttachment.Parent = LocalPlayer.Character.Torso, LocalPlayer.Character.Torso
+		jointAttachments = {
+			['Head'] = {
+				['Attachment0'] = LocalPlayer.Character.Torso['NeckAttachment'];
+				['Attachment1'] = LocalPlayer.Character.Head['Head[Attachment]'];
+			};
+			['Left Arm'] = {
+				['Attachment0'] = LocalPlayer.Character.Torso['LeftCollarAttachment'];
+				['Attachment1'] = LocalPlayer.Character['Left Arm']['Left Arm[Attachment]'];
+			};
+			['Right Arm'] = {
+				['Attachment0'] = LocalPlayer.Character.Torso['RightCollarAttachment'];
+				['Attachment1'] = LocalPlayer.Character['Right Arm']['Right Arm[Attachment]'];
+			};
+			['Left Leg'] = {
+				['Attachment0'] = leftLegAttachment;
+				['Attachment1'] = LocalPlayer.Character['Left Leg']['Left Leg[Attachment]'];
+			};
+			['Right Leg'] = {
+				['Attachment0'] = rightLegAttachment;
+				['Attachment1'] = LocalPlayer.Character['Right Leg']['Right Leg[Attachment]'];
+			};
+		}
+		LocalPlayer.Character.Humanoid.PlatformStand = true
+		Iterate(LocalPlayer.Character, function(v)
+			if v:IsA("BasePart") then
+				if jointAttachments[v.Name] then
+					local ballSocketJoint = Instance.new("BallSocketConstraint")
+					ballSocketJoint.Parent = v
+					ballSocketJoint.Radius = 0.15
+					ballSocketJoint.Attachment0, ballSocketJoint.Attachment1 = jointAttachments[v.Name]['Attachment0'], jointAttachments[v.Name]['Attachment1']
+				end
+			end
+		end)
+		Iterate(LocalPlayer.Character.Torso, function(v)
+			if v:IsA("Motor") then
+				v:Remove()
+			end
+		end)
+	end)
+	
+	txt40.Name = "txt40"
+	txt40.Parent = Frame
+	txt40.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+	txt40.Position = UDim2.new(0.0520014353, 0, 0.500698984, 0)
+	txt40.Size = UDim2.new(0, 200, 0, 50)
+	txt40.Font = Enum.Font.Gotham
+	txt40.Text = "JJ [40]"
+	txt40.TextColor3 = Color3.fromRGB(0, 0, 0)
+	txt40.TextSize = 20.000
+	txt40.MouseButton1Down:connect(function()
+		-- R6 Only
+	
+		local A_1 = "BİR"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait (1)
+		local A_1 = "İKİ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "UÇ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "DÖRT"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "BEŞ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ALTI"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "YEDİ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "SEKİZ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "DOKUZ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ON"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ON BİR"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ON İKİ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ON ÜÇ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ON DÖRT"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ON BEŞ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ON ALTI"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ON YEDİ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ON SEKİZ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ON DOKUZ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "YİRMİ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "YİRMİ BİR"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "YİRMİ İKİ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "YİRMİ ÜÇ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "YİRMİ DÖRT"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "YİRMİ BEŞ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "YİRMİ ALTI"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "YİRMİ YEDİ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "YİRMİ SEKİZ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		local A_1 = "YİRMİ DOKUZ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "OTUZ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait (1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait (1)
+		local A_1 = "OTUZ BİR"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "OTUZ İKİ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "OTUZ ÜÇ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "OTUZ DÖRT"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "OTUZ BEŞ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "OTUZ ALTI"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "OTUZ YEDİ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "OTUZ SEKİZ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "OTUZ DOKUZ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "KIRK"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(10000000000000000)
+		function Iterate(instance, func)
+			for i, v in next, instance:GetChildren() do
+				func(v)
+			end
+		end
+		limbs = {
+			["Right Leg"] = true;
+			["Right Arm"] = true;
+			["Left Leg"] = true;
+			["Left Arm"] = true;
+		}
+		Iterate(LocalPlayer.Character, function(v)
+			if v:IsA("BasePart") then
+				local attachment = Instance.new("Attachment")
+				attachment.Parent = v
+				attachment.Name = (v.Name .. "[Attachment]")
+				if limbs[v.Name] then
+					attachment.Position = Vector3.new(0, v.Size.Y/2, 0)
+				elseif v.Name == "Head" then
+					attachment.Position = Vector3.new(0, -v.Size.Y/2, 0)
+					attachment.Rotation = Vector3.new(0, 0, -90)
+				end
+			end
+		end)
+		local leftLegAttachment = Instance.new("Attachment")
+		leftLegAttachment.Position = Vector3.new(-.5, -1, 0)
+		leftLegAttachment.Rotation = Vector3.new(0, -90, 0)
+		local rightLegAttachment = Instance.new("Attachment")
+		rightLegAttachment.Position = Vector3.new(.5, -1, 0)
+		rightLegAttachment.Rotation = Vector3.new(0, -90, 0)
+		rightLegAttachment.Parent, leftLegAttachment.Parent = LocalPlayer.Character.Torso, LocalPlayer.Character.Torso
+		jointAttachments = {
+			['Head'] = {
+				['Attachment0'] = LocalPlayer.Character.Torso['NeckAttachment'];
+				['Attachment1'] = LocalPlayer.Character.Head['Head[Attachment]'];
+			};
+			['Left Arm'] = {
+				['Attachment0'] = LocalPlayer.Character.Torso['LeftCollarAttachment'];
+				['Attachment1'] = LocalPlayer.Character['Left Arm']['Left Arm[Attachment]'];
+			};
+			['Right Arm'] = {
+				['Attachment0'] = LocalPlayer.Character.Torso['RightCollarAttachment'];
+				['Attachment1'] = LocalPlayer.Character['Right Arm']['Right Arm[Attachment]'];
+			};
+			['Left Leg'] = {
+				['Attachment0'] = leftLegAttachment;
+				['Attachment1'] = LocalPlayer.Character['Left Leg']['Left Leg[Attachment]'];
+			};
+			['Right Leg'] = {
+				['Attachment0'] = rightLegAttachment;
+				['Attachment1'] = LocalPlayer.Character['Right Leg']['Right Leg[Attachment]'];
+			};
+		}
+		LocalPlayer.Character.Humanoid.PlatformStand = true
+		Iterate(LocalPlayer.Character, function(v)
+			if v:IsA("BasePart") then
+				if jointAttachments[v.Name] then
+					local ballSocketJoint = Instance.new("BallSocketConstraint")
+					ballSocketJoint.Parent = v
+					ballSocketJoint.Radius = 0.15
+					ballSocketJoint.Attachment0, ballSocketJoint.Attachment1 = jointAttachments[v.Name]['Attachment0'], jointAttachments[v.Name]['Attachment1']
+				end
+			end
+		end)
+		Iterate(LocalPlayer.Character.Torso, function(v)
+			if v:IsA("Motor") then
+				v:Remove()
+			end
+		end)
+	end)
+	
+	txt30.Name = "txt30"
+	txt30.Parent = Frame
+	txt30.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+	txt30.Position = UDim2.new(0.047537148, 0, 0.668567598, 0)
+	txt30.Size = UDim2.new(0, 200, 0, 50)
+	txt30.Font = Enum.Font.Gotham
+	txt30.Text = "JJ [30]"
+	txt30.TextColor3 = Color3.fromRGB(0, 0, 0)
+	txt30.TextSize = 20.000
+	txt30.MouseButton1Down:connect(function()
+		-- R6 Only
+	
+		local A_1 = "BİR"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait (1)
+		local A_1 = "İKİ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "UÇ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "DÖRT"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "BEŞ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ALTI"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "YEDİ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "SEKİZ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "DOKUZ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ON"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ON BİR"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ON İKİ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ON ÜÇ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ON DÖRT"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ON BEŞ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ON ALTI"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ON YEDİ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ON SEKİZ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ON DOKUZ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "YİRMİ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "YİRMİ BİR"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "YİRMİ İKİ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "YİRMİ ÜÇ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "YİRMİ DÖRT"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "YİRMİ BEŞ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "YİRMİ ALTI"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "YİRMİ YEDİ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "YİRMİ SEKİZ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		local A_1 = "YİRMİ DOKUZ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(10000000000000000)
+		function Iterate(instance, func)
+			for i, v in next, instance:GetChildren() do
+				func(v)
+			end
+		end
+		limbs = {
+			["Right Leg"] = true;
+			["Right Arm"] = true;
+			["Left Leg"] = true;
+			["Left Arm"] = true;
+		}
+		Iterate(LocalPlayer.Character, function(v)
+			if v:IsA("BasePart") then
+				local attachment = Instance.new("Attachment")
+				attachment.Parent = v
+				attachment.Name = (v.Name .. "[Attachment]")
+				if limbs[v.Name] then
+					attachment.Position = Vector3.new(0, v.Size.Y/2, 0)
+				elseif v.Name == "Head" then
+					attachment.Position = Vector3.new(0, -v.Size.Y/2, 0)
+					attachment.Rotation = Vector3.new(0, 0, -90)
+				end
+			end
+		end)
+		local leftLegAttachment = Instance.new("Attachment")
+		leftLegAttachment.Position = Vector3.new(-.5, -1, 0)
+		leftLegAttachment.Rotation = Vector3.new(0, -90, 0)
+		local rightLegAttachment = Instance.new("Attachment")
+		rightLegAttachment.Position = Vector3.new(.5, -1, 0)
+		rightLegAttachment.Rotation = Vector3.new(0, -90, 0)
+		rightLegAttachment.Parent, leftLegAttachment.Parent = LocalPlayer.Character.Torso, LocalPlayer.Character.Torso
+		jointAttachments = {
+			['Head'] = {
+				['Attachment0'] = LocalPlayer.Character.Torso['NeckAttachment'];
+				['Attachment1'] = LocalPlayer.Character.Head['Head[Attachment]'];
+			};
+			['Left Arm'] = {
+				['Attachment0'] = LocalPlayer.Character.Torso['LeftCollarAttachment'];
+				['Attachment1'] = LocalPlayer.Character['Left Arm']['Left Arm[Attachment]'];
+			};
+			['Right Arm'] = {
+				['Attachment0'] = LocalPlayer.Character.Torso['RightCollarAttachment'];
+				['Attachment1'] = LocalPlayer.Character['Right Arm']['Right Arm[Attachment]'];
+			};
+			['Left Leg'] = {
+				['Attachment0'] = leftLegAttachment;
+				['Attachment1'] = LocalPlayer.Character['Left Leg']['Left Leg[Attachment]'];
+			};
+			['Right Leg'] = {
+				['Attachment0'] = rightLegAttachment;
+				['Attachment1'] = LocalPlayer.Character['Right Leg']['Right Leg[Attachment]'];
+			};
+		}
+		LocalPlayer.Character.Humanoid.PlatformStand = true
+		Iterate(LocalPlayer.Character, function(v)
+			if v:IsA("BasePart") then
+				if jointAttachments[v.Name] then
+					local ballSocketJoint = Instance.new("BallSocketConstraint")
+					ballSocketJoint.Parent = v
+					ballSocketJoint.Radius = 0.15
+					ballSocketJoint.Attachment0, ballSocketJoint.Attachment1 = jointAttachments[v.Name]['Attachment0'], jointAttachments[v.Name]['Attachment1']
+				end
+			end
+		end)
+		Iterate(LocalPlayer.Character.Torso, function(v)
+			if v:IsA("Motor") then
+				v:Remove()
+			end
+		end)
+	end)
+	
+	txt20.Name = "txt20"
+	txt20.Parent = Frame
+	txt20.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+	txt20.Position = UDim2.new(0.0520014353, 0, 0.844737411, 0)
+	txt20.Size = UDim2.new(0, 200, 0, 50)
+	txt20.Font = Enum.Font.Gotham
+	txt20.Text = "JJ [20]"
+	txt20.TextColor3 = Color3.fromRGB(0, 0, 0)
+	txt20.TextSize = 20.000
+	txt20.MouseButton1Down:connect(function()
+		-- R6 Only
+	
+		local A_1 = "BİR"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait (1)
+		local A_1 = "İKİ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "UÇ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "DÖRT"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "BEŞ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ALTI"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "YEDİ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "SEKİZ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "DOKUZ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ON"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ON BİR"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ON İKİ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ON ÜÇ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ON DÖRT"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ON BEŞ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ON ALTI"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ON YEDİ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ON SEKİZ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "ON DOKUZ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(1)
+		local A_1 = "YİRMİ"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		wait(1)
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(10000000000000000)
+		function Iterate(instance, func)
+			for i, v in next, instance:GetChildren() do
+				func(v)
+			end
+		end
+		-- Gui to Lua
+		-- Version: 3.2
+	
+		-- Instances:
+	
+		local ScreenGui = Instance.new("ScreenGui")
+		local Frame = Instance.new("Frame")
+		local TextBox = Instance.new("TextBox")
+		local TextButton = Instance.new("TextButton")
+		local TextButton_2 = Instance.new("TextButton")
+	
+		--Properties:
+	
+		ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+		ScreenGui.ResetOnSpawn = false
+	
+		Frame.Parent = ScreenGui
+		Frame.BackgroundColor3 = Color3.fromRGB(89, 53, 87)
+		Frame.Position = UDim2.new(0.692207813, 0, 0.360068262, 0)
+		Frame.Size = UDim2.new(0, 222, 0, 359)
+		Frame.Active = true
+		Frame.Draggable = true
+	
+		TextBox.Parent = ScreenGui
+		TextBox.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+		TextBox.Position = UDim2.new(0.692207813, 0, 0.360068262, 0)
+		TextBox.Size = UDim2.new(0, 222, 0, 50)
+		TextBox.Font = Enum.Font.SourceSans
+		TextBox.Text = "Lexer"
+		TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+		TextBox.TextSize = 14.000
+	
+		TextButton.Parent = ScreenGui
+		TextButton.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+		TextButton.Position = UDim2.new(0.705194831, 0, 0.53583616, 0)
+		TextButton.Size = UDim2.new(0, 200, 0, 50)
+		TextButton.Font = Enum.Font.Gotham
+		TextButton.Text = "JJ"
+		TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+		TextButton.TextSize = 20.000
+	
+		TextButton_2.Parent = ScreenGui
+		TextButton_2.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+		TextButton_2.Position = UDim2.new(0.706493497, 0, 0.651877105, 0)
+		TextButton_2.Size = UDim2.new(0, 200, 0, 50)
+		TextButton_2.Font = Enum.Font.SourceSans
+		TextButton_2.Text = "GJ"
+		TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+		TextButton_2.TextSize = 30.000
+		TextButton.MouseButton1Down:connect(function()
+			-- R6 Only
+	
+			local A_1 = "BİR"
+			local A_2 = "All"
+			local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+			Event:FireServer(A_1, A_2)
+			wait(1)
+			LocalPlayer = game:GetService("Players").LocalPlayer
+			LocalPlayer.Character.Humanoid.Jump = true
+			wait (1)
+			local A_1 = "İKİ"
+			local A_2 = "All"
+			local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+			Event:FireServer(A_1, A_2)
+			wait(1)
+			LocalPlayer = game:GetService("Players").LocalPlayer
+			LocalPlayer.Character.Humanoid.Jump = true
+			wait(1)
+			local A_1 = "UÇ"
+			local A_2 = "All"
+			local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+			Event:FireServer(A_1, A_2)
+			wait(1)
+			LocalPlayer = game:GetService("Players").LocalPlayer
+			LocalPlayer.Character.Humanoid.Jump = true
+			wait(1)
+			local A_1 = "DÖRT"
+			local A_2 = "All"
+			local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+			Event:FireServer(A_1, A_2)
+			wait(1)
+			LocalPlayer = game:GetService("Players").LocalPlayer
+			LocalPlayer.Character.Humanoid.Jump = true
+			wait(1)
+			local A_1 = "BEŞ"
+			local A_2 = "All"
+			local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+			Event:FireServer(A_1, A_2)
+			wait(1)
+			LocalPlayer = game:GetService("Players").LocalPlayer
+			LocalPlayer.Character.Humanoid.Jump = true
+			wait(1)
+			local A_1 = "ALTI"
+			local A_2 = "All"
+			local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+			Event:FireServer(A_1, A_2)
+			wait(1)
+			LocalPlayer = game:GetService("Players").LocalPlayer
+			LocalPlayer.Character.Humanoid.Jump = true
+			wait(1)
+			local A_1 = "YEDİ"
+			local A_2 = "All"
+			local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+			Event:FireServer(A_1, A_2)
+			wait(1)
+			LocalPlayer = game:GetService("Players").LocalPlayer
+			LocalPlayer.Character.Humanoid.Jump = true
+			wait(1)
+			local A_1 = "SEKİZ"
+			local A_2 = "All"
+			local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+			Event:FireServer(A_1, A_2)
+			wait(1)
+			LocalPlayer = game:GetService("Players").LocalPlayer
+			LocalPlayer.Character.Humanoid.Jump = true
+			wait(1)
+			local A_1 = "DOKUZ"
+			local A_2 = "All"
+			local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+			Event:FireServer(A_1, A_2)
+			wait(1)
+			LocalPlayer = game:GetService("Players").LocalPlayer
+			LocalPlayer.Character.Humanoid.Jump = true
+			wait(1)
+			local A_1 = "ON"
+			local A_2 = "All"
+			local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+			Event:FireServer(A_1, A_2)
+			wait(1)
+			LocalPlayer = game:GetService("Players").LocalPlayer
+			LocalPlayer.Character.Humanoid.Jump = true
+			wait(1)
+			local A_1 = "ON BİR"
+			local A_2 = "All"
+			local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+			Event:FireServer(A_1, A_2)
+			wait(1)
+			LocalPlayer = game:GetService("Players").LocalPlayer
+			LocalPlayer.Character.Humanoid.Jump = true
+			wait(1)
+			local A_1 = "ON İKİ"
+			local A_2 = "All"
+			local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+			Event:FireServer(A_1, A_2)
+			wait(1)
+			LocalPlayer = game:GetService("Players").LocalPlayer
+			LocalPlayer.Character.Humanoid.Jump = true
+			wait(1)
+			local A_1 = "ON ÜÇ"
+			local A_2 = "All"
+			local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+			Event:FireServer(A_1, A_2)
+			wait(1)
+			LocalPlayer = game:GetService("Players").LocalPlayer
+			LocalPlayer.Character.Humanoid.Jump = true
+			wait(1)
+			local A_1 = "ON DÖRT"
+			local A_2 = "All"
+			local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+			Event:FireServer(A_1, A_2)
+			wait(1)
+			LocalPlayer = game:GetService("Players").LocalPlayer
+			LocalPlayer.Character.Humanoid.Jump = true
+			wait(1)
+			local A_1 = "ON BEŞ"
+			local A_2 = "All"
+			local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+			Event:FireServer(A_1, A_2)
+			wait(1)
+			LocalPlayer = game:GetService("Players").LocalPlayer
+			LocalPlayer.Character.Humanoid.Jump = true
+			wait(1)
+			local A_1 = "ON ALTI"
+			local A_2 = "All"
+			local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+			Event:FireServer(A_1, A_2)
+			wait(1)
+			LocalPlayer = game:GetService("Players").LocalPlayer
+			LocalPlayer.Character.Humanoid.Jump = true
+			wait(1)
+			local A_1 = "ON YEDİ"
+			local A_2 = "All"
+			local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+			Event:FireServer(A_1, A_2)
+			wait(1)
+			LocalPlayer = game:GetService("Players").LocalPlayer
+			LocalPlayer.Character.Humanoid.Jump = true
+			wait(1)
+			local A_1 = "ON SEKİZ"
+			local A_2 = "All"
+			local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+			Event:FireServer(A_1, A_2)
+			wait(1)
+			LocalPlayer = game:GetService("Players").LocalPlayer
+			LocalPlayer.Character.Humanoid.Jump = true
+			wait(1)
+			local A_1 = "ON DOKUZ"
+			local A_2 = "All"
+			local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+			Event:FireServer(A_1, A_2)
+			wait(1)
+			LocalPlayer = game:GetService("Players").LocalPlayer
+			LocalPlayer.Character.Humanoid.Jump = true
+			wait(1)
+			local A_1 = "YİRMİ"
+			local A_2 = "All"
+			local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+			Event:FireServer(A_1, A_2)
+			wait(1)
+			LocalPlayer = game:GetService("Players").LocalPlayer
+			LocalPlayer.Character.Humanoid.Jump = true
+			wait(10000000000000000)
+			function Iterate(instance, func)
+				for i, v in next, instance:GetChildren() do
+					func(v)
+				end
+			end
+			limbs = {
+				["Right Leg"] = true;
+				["Right Arm"] = true;
+				["Left Leg"] = true;
+				["Left Arm"] = true;
+			}
+			Iterate(LocalPlayer.Character, function(v)
+				if v:IsA("BasePart") then
+					local attachment = Instance.new("Attachment")
+					attachment.Parent = v
+					attachment.Name = (v.Name .. "[Attachment]")
+					if limbs[v.Name] then
+						attachment.Position = Vector3.new(0, v.Size.Y/2, 0)
+					elseif v.Name == "Head" then
+						attachment.Position = Vector3.new(0, -v.Size.Y/2, 0)
+						attachment.Rotation = Vector3.new(0, 0, -90)
+					end
+				end
+			end)
+			local leftLegAttachment = Instance.new("Attachment")
+			leftLegAttachment.Position = Vector3.new(-.5, -1, 0)
+			leftLegAttachment.Rotation = Vector3.new(0, -90, 0)
+			local rightLegAttachment = Instance.new("Attachment")
+			rightLegAttachment.Position = Vector3.new(.5, -1, 0)
+			rightLegAttachment.Rotation = Vector3.new(0, -90, 0)
+			rightLegAttachment.Parent, leftLegAttachment.Parent = LocalPlayer.Character.Torso, LocalPlayer.Character.Torso
+			jointAttachments = {
+				['Head'] = {
+					['Attachment0'] = LocalPlayer.Character.Torso['NeckAttachment'];
+					['Attachment1'] = LocalPlayer.Character.Head['Head[Attachment]'];
+				};
+				['Left Arm'] = {
+					['Attachment0'] = LocalPlayer.Character.Torso['LeftCollarAttachment'];
+					['Attachment1'] = LocalPlayer.Character['Left Arm']['Left Arm[Attachment]'];
+				};
+				['Right Arm'] = {
+					['Attachment0'] = LocalPlayer.Character.Torso['RightCollarAttachment'];
+					['Attachment1'] = LocalPlayer.Character['Right Arm']['Right Arm[Attachment]'];
+				};
+				['Left Leg'] = {
+					['Attachment0'] = leftLegAttachment;
+					['Attachment1'] = LocalPlayer.Character['Left Leg']['Left Leg[Attachment]'];
+				};
+				['Right Leg'] = {
+					['Attachment0'] = rightLegAttachment;
+					['Attachment1'] = LocalPlayer.Character['Right Leg']['Right Leg[Attachment]'];
+				};
+			}
+			LocalPlayer.Character.Humanoid.PlatformStand = true
+			Iterate(LocalPlayer.Character, function(v)
+				if v:IsA("BasePart") then
+					if jointAttachments[v.Name] then
+						local ballSocketJoint = Instance.new("BallSocketConstraint")
+						ballSocketJoint.Parent = v
+						ballSocketJoint.Radius = 0.15
+						ballSocketJoint.Attachment0, ballSocketJoint.Attachment1 = jointAttachments[v.Name]['Attachment0'], jointAttachments[v.Name]['Attachment1']
+					end
+				end
+			end)
+				TextButton.kapat.MouseButton1Click:connect(function()
+				script.Parent.LocalScript = false
+			end)
+		end)
+	end)
+end
+coroutine.wrap(HAITJM_fake_script)()
